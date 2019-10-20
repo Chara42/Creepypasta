@@ -1,0 +1,52 @@
+body{
+	background-image:url(slender_background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	font-size:80px; 
+	text-align: center;
+	margin: 0;
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+}
+img{
+	width: 44%;
+	float: left;
+
+}
+p{
+	margin: 30;
+	font-size: 20px;
+	color: white;
+}
+p{
+	font-size: 20px;
+	float: left;
+}
+nav{
+	text-align: center;
+	margin: 10px;
+	padding: 42px;
+	background-color: #00000099;
+}
+nav a{
+	font-size: 31px;
+	text-decoration: none;
+	color: white;
+}
+nav ul{
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	padding: 10px 30px;
+	transition: background-color .7s ease;
+	width: 23%;
+}
+nav li:hover{
+	background-color: #9F0018;
+}
+div.info img {
+	padding: 0px 70px;
+}
